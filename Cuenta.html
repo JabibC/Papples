@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/style7.css">
+    <title>Papples</title>
+</head>
+<body>
+    <div class="container"> 
+        <nav class="navbar">
+            <div class="nav-left">
+                <a href="index .html" class="brand">
+                    <img src="Img/logo-l.png" alt="" width="100px">
+                </a>
+                <ul class="menu">
+                    <li class="navitem"><a href="index (1).html">Inicio</a></li>
+                    <li class="navitem"><a href="SobreNosotros.html">Sobre Nosotros</a></li>
+                    <li class="navitem"><a href="Servicios.html">Servicios</a></li>
+                    <li class="navitem"><a href="Productos.html">Productos</a></li>
+                    <li class="navitem"><a href="Faq's.html">Faq's</a></li>
+                    <li class="navitem"><a href="ayuda.html">Ayuda</a></li>
+                </ul>
+            </div>
+
+            <button class="btn-menu-movil" id="btnMenu">
+                <i class="fas fa-bars"></i>
+            </button>
+
+            <ul class="menu-movil" id="menuMovil">
+                <li class="navitem"><a href="index (1).html">Inicio</a></li>
+                <li class="navitem"><a href="SobreNosotros.html">Sobre Nosotros</a></li>
+                <li class="navitem"><a href="Servicios.html">Servicios</a></li>
+                <li class="navitem"><a href="Productos.html">Productos</a></li>
+                <li class="navitem"><a href="Faq's.html">Faq's</a></li>
+                <li class="navitem"><a href="Carrito.html">Carrito <i class="fas fa-shopping-cart"></i></a></li>
+                <li class="navitem"><a href="Cuenta.html">Cuenta <i class="fas fa-user"></i></a></li>
+            </ul>
+
+            <div class="nav-right">
+                <ul>
+                    <li><a href="Carrito.html">Carrito <i class="fas fa-shopping-cart"></i></a></li>
+                    <li><a href="Cuenta.html">Cuenta <i class="fas fa-user"></i></a></li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+    
+    
+
+
+    <footer class="footer">
+        Todos los derechos reservados Papples.com
+    </footer>
+
+    <script>
+        var btnMenu = document.querySelector('#btnMenu');
+        var menuMovil = document.querySelector('#menuMovil');
+
+        btnMenu.addEventListener('click', function() {
+            menuMovil.classList.toggle('show');
+        });
+        
+    </script>
+    
+</body>
+</html>

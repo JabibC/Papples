@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/style4.css">
+    <title>Papples</title>
+</head>
+<body>
+    <div class="container"> 
+        <nav class="navbar">
+            <div class="nav-left">
+                <a href="index .html" class="brand">
+                    <img src="Img/logo-l.png" alt="" width="100px">
+                </a>
+                <ul class="menu">
+                    <li class="navitem"><a href="index (1).html">Inicio</a></li>
+                    <li class="navitem"><a href="SobreNosotros.html">Sobre Nosotros</a></li>
+                    <li class="navitem"><a href="Servicios.html">Servicios</a></li>
+                    <li class="navitem"><a href="Productos.html">Productos</a></li>
+                    <li class="navitem"><a href="Faq's.html">Faq's</a></li>
+                    <li class="navitem"><a href="ayuda.html">Ayuda</a></li>
+                </ul>
+            </div>
+
+            <button class="btn-menu-movil" id="btnMenu">
+                <i class="fas fa-bars"></i>
+            </button>
+
+            <ul class="menu-movil" id="menuMovil">
+                <li class="navitem"><a href="index (1).html">Inicio</a></li>
+                <li class="navitem"><a href="SobreNosotros.html">Sobre Nosotros</a></li>
+                <li class="navitem"><a href="Servicios.html">Servicios</a></li>
+                <li class="navitem"><a href="Productos.html">Productos</a></li>
+                <li class="navitem"><a href="Faq's.html">Faq's</a></li>
+                <li class="navitem"><a href="Carrito.html">Carrito <i class="fas fa-shopping-cart"></i></a></li>
+                <li class="navitem"><a href="Cuenta.html">Cuenta <i class="fas fa-user"></i></a></li>
+            </ul>
+
+            <div class="nav-right">
+                <ul>
+                    <li><a href="Carrito.html">Carrito <i class="fas fa-shopping-cart"></i></a></li>
+                    <li><a href="Cuenta.html">Cuenta <i class="fas fa-user"></i></a></li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+
+    <div class="text">
+      <h1>FAQ'S</h1>
+    </div>
+
+    <div class="text">
+      <p>Preguntas Frecuentes (FAQs) - Paples: <br>
+
+        ¿Dónde se encuentra ubicada la tienda principal de Paples en Manzanaville?<br>
+        
+        Respuesta: Nuestra tienda principal está ubicada en el centro de Manzanaville, en la calle principal número 123. ¡Te invitamos a visitarnos!
+        <br>
+        
+        ¿Cuáles son los tipos de manzanas que ofrecen en Paples?<br>
+        
+        Respuesta: Ofrecemos una amplia variedad de manzanas frescas, que incluyen Fuji, Granny Smith, Honeycrisp y más. ¡Ven y descubre tu favorita!<br>
+        
+        
+        ¿Tienen opciones de productos sin azúcar añadido para personas con restricciones dietéticas?<br>
+        
+        Respuesta: Sí, ofrecemos una línea de productos sin azúcar añadido, como compotas y mermeladas, para satisfacer las necesidades de nuestros clientes preocupados por la ingesta de azúcar.<br>
+        
+        <br>
+        ¿Cómo puedo ordenar productos de Paples en línea?
+        <br>
+        Respuesta: Puedes realizar pedidos en línea a través de nuestro sitio web oficial. Simplemente selecciona los productos que deseas y sigue las instrucciones de pago y envío.
+        <br>
+        
+        ¿Hacen envíos a nivel nacional?
+        <br>
+        Respuesta: Sí, ofrecemos envíos a nivel nacional para que puedas disfrutar de nuestros productos en cualquier lugar de país. Consulta nuestros términos y tarifas de envío en línea.
+        <br>
+        
+        ¿Qué tipo de eventos atienden con su servicio de catering?
+        <br>
+        Respuesta: Nuestro servicio de catering es adecuado para una variedad de eventos, incluyendo bodas, reuniones de negocios, fiestas privadas y más. Contáctanos para discutir tus necesidades específicas.
+        
+        <br>
+        ¿Puedo personalizar un paquete de regalo con productos específicos para regalar a alguien?
+        <br>
+        Respuesta: ¡Claro! Ofrecemos opciones de paquetes de regalo personalizados para que puedas crear un regalo único y significativo con tus productos favoritos de manzana.
+        
+        <br>
+        ¿Tienen consejos sobre cómo utilizar productos de manzana en recetas caseras?
+        <br>
+        Respuesta: Sí, estamos encantados de proporcionarte consejos y recetas para aprovechar al máximo nuestros productos en tus creaciones caseras. ¡Contáctanos para obtener sugerencias!
+        
+        <br>
+        Estas son algunas preguntas frecuentes y respuestas que los clientes pueden encontrar en la sección de "Preguntas Frecuentes (FAQs)" de Paples. Esta sección proporciona información útil y responde a las dudas comunes que los clientes puedan tener sobre la empresa y sus productos.</p>
+    </div>
+
+
+    <footer class="footer">
+        Todos los derechos reservados Papples.com
+    </footer>
+
+    <script>
+        var btnMenu = document.querySelector('#btnMenu');
+        var menuMovil = document.querySelector('#menuMovil');
+
+        btnMenu.addEventListener('click', function() {
+            menuMovil.classList.toggle('show');
+        });
+        
+    </script>
+    
+</body>
+</html>

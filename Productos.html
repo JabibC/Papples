@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/style3.css">
+    <title>Papples</title>
+</head>
+<body>
+    <div class="container"> 
+        <nav class="navbar">
+            <div class="nav-left">
+                <a href="index .html" class="brand">
+                    <img src="Img/logo-l.png" alt="" width="100px">
+                </a>
+                <ul class="menu">
+                    <li class="navitem"><a href="index (1).html">Inicio</a></li>
+                    <li class="navitem"><a href="SobreNosotros.html">Sobre Nosotros</a></li>
+                    <li class="navitem"><a href="Servicios.html">Servicios</a></li>
+                    <li class="navitem"><a href="Productos.html">Productos</a></li>
+                    <li class="navitem"><a href="Faq's.html">Faq's</a></li>
+                    <li class="navitem"><a href="ayuda.html">Ayuda</a></li>
+                </ul>
+            </div>
+
+            <button class="btn-menu-movil" id="btnMenu">
+                <i class="fas fa-bars"></i>
+            </button>
+
+            <ul class="menu-movil" id="menuMovil">
+                <li class="navitem"><a href="index (1).html">Inicio</a></li>
+                <li class="navitem"><a href="SobreNosotros.html">Sobre Nosotros</a></li>
+                <li class="navitem"><a href="Servicios.html">Servicios</a></li>
+                <li class="navitem"><a href="Productos.html">Productos</a></li>
+                <li class="navitem"><a href="Faq's.html">Faq's</a></li>
+                <li class="navitem"><a href="Carrito.html">Carrito <i class="fas fa-shopping-cart"></i></a></li>
+                <li class="navitem"><a href="Cuenta.html">Cuenta <i class="fas fa-user"></i></a></li>
+            </ul>
+
+            <div class="nav-right">
+                <ul>
+                    <li><a href="Carrito.html">Carrito <i class="fas fa-shopping-cart"></i></a></li>
+                    <li><a href="Cuenta.html">Cuenta <i class="fas fa-user"></i></a></li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+
+    <div class="title">
+      <h1>Productos</h1>
+      <hr>
+    </div>
+    <div class="text">
+
+      <h1>Productos de manzanas Frescos</h1>
+
+        <p>En Paples, nuestra pasión es ofrecerte la frescura y calidad de las manzanas locales en una variedad de productos deliciosos. Nuestra amplia selección de productos de manzana frescos incluye: <br>
+
+        Manzanas Variadas: Disfruta de una variedad de manzanas frescas de la región, desde las dulces y crujientes hasta las más jugosas y ácidas. Tenemos manzanas para todos los gustos y necesidades. <br>
+
+        Pasteles de Manzana: Nuestros pasteles de manzana recién horneados son una delicia para el paladar. Cada bocado es una explosión de sabor con la combinación perfecta de manzanas frescas y especias. <br>
+
+        Compotas y Mermeladas: Nuestras compotas y mermeladas de manzana son ideales para untar en pan, acompañar quesos o complementar platos principales. Ofrecemos una variedad de sabores, desde la clásica compota de manzana hasta combinaciones más creativas. <br>
+
+        Sidra de Manzana: Refréscate con nuestra sidra de manzana, una bebida natural y saludable que captura el sabor auténtico de las manzanas frescas de Manzanaville. <br>
+
+        Productos Especiales de Temporada: A lo largo del año, presentamos productos especiales de temporada, como tarta de manzana con canela en otoño o caramelos de manzana en invierno. ¡No te los pierdas! <br>
+
+        Productos Sin Azúcar Añadido: Para aquellos que buscan opciones más saludables, ofrecemos una línea de productos sin azúcar añadido, manteniendo el sabor natural de las manzanas.
+
+        Productos de Manzana para Regalos: Explora nuestra selección de paquetes de regalo que incluyen una variedad de productos de manzana, ideales para regalar a amigos y familiares. <br>
+
+        En Paples, nos enorgullecemos de utilizar solo las manzanas más frescas y locales en nuestros productos, manteniendo la tradición de calidad y sabor que nos ha hecho famosos en Manzanaville y más allá. Ven y descubre la deliciosa variedad de productos de manzana frescos que tenemos para ofrecer.
+        </p>
+
+    </div>
+
+
+    <img src="../Contenido para Pappels/alveoles-plateau_2_.jpeg" alt="" width="500px">
+    <img src="../Contenido para Pappels/maxresdefault111.jpeg" alt=""
+    width="550px">
+    
+    
+
+
+    <footer class="footer">
+        Todos los derechos reservados Papples.com
+    </footer>
+
+    <script>
+        var btnMenu = document.querySelector('#btnMenu');
+        var menuMovil = document.querySelector('#menuMovil');
+
+        btnMenu.addEventListener('click', function() {
+            menuMovil.classList.toggle('show');
+        });
+        
+    </script>
+    
+</body>
+</html>

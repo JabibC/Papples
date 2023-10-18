@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/style2.css">
+    <title>Papples</title>
+</head>
+<body>
+    <div class="container"> 
+        <nav class="navbar">
+            <div class="nav-left">
+                <a href="index .html" class="brand">
+                    <img src="Img/logo-l.png" alt="" width="100px">
+                </a>
+                <ul class="menu">
+                    <li class="navitem"><a href="index (1).html">Inicio</a></li>
+                    <li class="navitem"><a href="SobreNosotros.html">Sobre Nosotros</a></li>
+                    <li class="navitem"><a href="Servicios.html">Servicios</a></li>
+                    <li class="navitem"><a href="Productos.html">Productos</a></li>
+                    <li class="navitem"><a href="Faq's.html">Faq's</a></li>
+                    <li class="navitem"><a href="ayuda.html">Ayuda</a></li>
+                </ul>
+            </div>
+
+            <button class="btn-menu-movil" id="btnMenu">
+                <i class="fas fa-bars"></i>
+            </button>
+
+            <ul class="menu-movil" id="menuMovil">
+                <li class="navitem"><a href="index (1).html">Inicio</a></li>
+                <li class="navitem"><a href="SobreNosotros.html">Sobre Nosotros</a></li>
+                <li class="navitem"><a href="Servicios.html">Servicios</a></li>
+                <li class="navitem"><a href="Productos.html">Productos</a></li>
+                <li class="navitem"><a href="Faq's.html">Faq's</a></li>
+                <li class="navitem"><a href="Carrito.html">Carrito <i class="fas fa-shopping-cart"></i></a></li>
+                <li class="navitem"><a href="Cuenta.html">Cuenta <i class="fas fa-user"></i></a></li>
+            </ul>
+
+            <div class="nav-right">
+                <ul>
+                    <li><a href="Carrito.html">Carrito <i class="fas fa-shopping-cart"></i></a></li>
+                    <li><a href="Cuenta.html">Cuenta <i class="fas fa-user"></i></a></li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+    <div class="contenedor">
+      <h3 class="titulo">Servicios</h3>
+      <hr>
+      <img src="../Contenido para Pappels/maxresdefault111.jpeg" alt="" width="500px">
+    </div>
+
+
+    <div class="par">
+      <hr>
+      <h1>servicio de Degustacion de Manzanas y Productos relacionados:</h1>
+      <p>- Paples podría ofrecer un servicio de degustación en su tienda principal en Manzanaville, donde los clientes pueden probar una variedad de manzanas frescas, pasteles, compotas y sidra. Este servicio permitiría a los visitantes experimentar la diversidad de sabores y productos que ofrece la empresa. Algunos aspectos de este servicio podrían incluir:
+        <br>
+
+        - Degustación Guiada: Personal de Paples podría guiar a los visitantes a través de una experiencia de degustación educativa, explicando las diferencias entre las variedades de manzanas y cómo se utilizan en los productos de la empresa.
+        <br>
+
+        - Maridaje de Productos: Los clientes podrían aprender a combinar diferentes tipos de manzanas con productos como quesos, vinos o chocolates, ofreciendo una experiencia de degustación más sofisticada.
+        <br>
+
+        - Eventos Especiales: Paples podría organizar eventos de degustación especiales, como degustaciones de temporada con productos exclusivos o cenas temáticas donde los productos de manzana son el plato principal.
+        <br>
+
+        - Venta de Productos: Durante la degustación, los clientes podrían comprar los productos que más les gusten, lo que impulsaría las ventas y la promoción de los productos de Paples.
+        <br>
+
+        Este servicio no solo proporcionaría una experiencia única a los clientes, sino que también aumentaría la visibilidad de la marca y podría convertirse en una atracción turística en Manzanaville. Además, ayudaría a educar a los clientes sobre la calidad y la versatilidad de los productos de manzana de Paples.
+        <br>
+
+        - Entrega Programada: Puedes programar tus entregas para que se ajusten a tu horario y preferencias. Ya sea una entrega única o un plan de suscripción mensual, estamos aquí para satisfacer tus necesidades.</p>
+    </div>
+    <img src="../Contenido para Pappels/580b57fcd9996e24bc43c394.png" alt="" width="700px">
+
+
+    <footer class="footer">
+        Todos los derechos reservados Papples.com
+    </footer>
+
+    <script>
+        var btnMenu = document.querySelector('#btnMenu');
+        var menuMovil = document.querySelector('#menuMovil');
+
+        btnMenu.addEventListener('click', function() {
+            menuMovil.classList.toggle('show');
+        });
+        
+    </script>
+    
+</body>
+</html>

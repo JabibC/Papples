@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/style1.css">
+    <title>Papples</title>
+</head>
+<body>
+    <div class="container">
+        <nav class="navbar">
+            <div class="nav-left">
+                <a href="index .html" class="brand">
+                    <img src="Img/logo-l.png" alt="" width="100px">
+                </a>
+                <ul class="menu">
+                    <li class="navitem"><a href="index (1).html">Inicio</a></li>
+                    <li class="navitem"><a href="SobreNosotros.html">Sobre Nosotros</a></li>
+                    <li class="navitem"><a href="Servicios.html">Servicios</a></li>
+                    <li class="navitem"><a href="Productos.html">Productos</a></li>
+                    <li class="navitem"><a href="Faq's.html">Faq's</a></li>
+                    <li class="navitem"><a href="ayuda.html">Ayuda</a></li>
+                </ul>
+            </div>
+
+            <button class="btn-menu-movil" id="btnMenu">
+                <i class="fas fa-bars"></i>
+            </button>
+
+            <ul class="menu-movil" id="menuMovil">
+                <li class="navitem"><a href="index (1).html">Inicio</a></li>
+                <li class="navitem"><a href="SobreNosotros.html">Sobre Nosotros</a></li>
+                <li class="navitem"><a href="Servicios.html">Servicios</a></li>
+                <li class="navitem"><a href="Productos.html">Productos</a></li>
+                <li class="navitem"><a href="Faq's.html">Faq's</a></li>
+                <li class="navitem"><a href="Carrito.html">Carrito <i class="fas fa-shopping-cart"></i></a></li>
+                <li class="navitem"><a href="Cuenta.html">Cuenta <i class="fas fa-user"></i></a></li>
+            </ul>
+
+            <div class="nav-right">
+                <ul>
+                    <li><a href="Carrito.html">Carrito <i class="fas fa-shopping-cart"></i></a></li>
+                    <li><a href="Cuenta.html">Cuenta <i class="fas fa-user"></i></a></li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+
+    <div class="contenedor">
+      
+      <h3 class="titulo">¿Quienes somos?</h3>
+      <img src="../Contenido para Pappels/temporeros.jpeg" alt="Descripción de la imagen" width="500px-">
+      <hr/>
+      
+
+      <p>Paples, una empresa de manzanas con sede en el pintoresco pueblo de Manzanaville, tuvo un comienzo modesto pero lleno de pasión. Todo comenzó en 1985, cuando dos amigos, Pablo y Leticia, se dieron cuenta de que compartían una profunda pasión por las manzanas. Manzanaville, rodeado de prósperos huertos de manzanas, parecía el lugar perfecto para dar vida a su sueño.
+
+
+        Pablo, que había crecido en una familia de agricultores de manzanas, sabía todo sobre el arte de cultivar y cosechar las manzanas más deliciosas. Leticia, por otro lado, era una apasionada chef con un talento innato para crear recetas creativas con manzanas. Juntos, decidieron fundar Paples, una empresa que ofrecería productos de manzana únicos y de alta calidad.
+
+        Con solo un pequeño local y un horno de cocina en casa, comenzaron a experimentar y a elaborar deliciosos pasteles de manzana, compotas y sidra. La frescura y la calidad de sus productos rápidamente atrajeron la atención de los lugareños, y Paples comenzó a ganarse una reputación como el lugar donde encontrar los mejores productos de manzana de la región.
+
+        La empresa creció lentamente pero de manera constante a lo largo de los años, manteniendo siempre su compromiso con las manzanas frescas y los métodos artesanales. A medida que Paples se expandía, seguía colaborando estrechamente con los agricultores locales, lo que no solo garantizaba la frescura de sus productos, sino que también apoyaba a la comunidad.
+
+        La historia de Paples es un ejemplo de cómo una simple pasión por un ingrediente puede transformarse en un negocio exitoso. Desde su humilde inicio en Manzanaville, Paples ha seguido creciendo y ofreciendo productos de manzana de alta calidad a clientes de todo el país.</p>
+    </div>
+    <hr/>
+
+    <div  class="img">
+      <img src="../Contenido para Pappels/maxresdefault.jpeg" alt="">
+    </div>
+
+
+    <footer class="footer">
+        Todos los derechos reservados Papples.com
+    </footer>
+
+    <script>
+        var btnMenu = document.querySelector('#btnMenu');
+        var menuMovil = document.querySelector('#menuMovil');
+
+        btnMenu.addEventListener('click', function() {
+            menuMovil.classList.toggle('show');
+        });
+        
+    </script>
+    
+</body>
+</html>
